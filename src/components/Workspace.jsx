@@ -9,6 +9,7 @@ import {
 } from "react";
 import { v4 as uuidv4 } from "uuid";
 import ControlPanel from "./EditorHeader/ControlPanel";
+import BizivaAssist from "../biziva/BizivaAssist";
 import ExtensionsContext, { Slot } from "../context/ExtensionsContext";
 import Canvas from "./EditorCanvas/Canvas";
 import { CanvasContextProvider } from "../context/CanvasContext";
@@ -522,13 +523,14 @@ export default function WorkSpace({ forcedDiagramId } = {}) {
   }, [saveState, layout, save]);
 
   useEffect(() => {
-    document.title = "Editor | drawDB";
+    document.title = "Biziva Dados | Editor baseado no drawDB";
 
     load();
   }, [load]);
 
   return (
     <div className="h-full flex flex-col overflow-hidden theme">
+      <BizivaAssist />
       <IdContext.Provider value={{ gistId, setGistId, version, setVersion }}>
         <ControlPanel
           title={title}
