@@ -1,64 +1,27 @@
-<div align="center">
-    <img width="64" alt="drawDB logo" src="./src/assets/icon-dark.png">
-    <h1>drawDB</h1>
-</div>
+![Biziva Dados — Estruture o próximo passo.](BIZIVA-hero.svg)
 
-<h3 align="center">Free, simple, and intuitive database schema editor and SQL generator.</h3>
+# Biziva Dados
 
-<div align="center" style="margin-bottom:12px;">
-    <a href="https://drawdb.app/" style="display: flex; align-items: center;">
-        <img src="https://img.shields.io/badge/Start%20building-grey" alt="drawDB"/>
-    </a>
-    <a href="https://discord.gg/BrjZgNrmR6" style="display: flex; align-items: center;">
-        <img src="https://img.shields.io/discord/1196658537208758412.svg?label=Join%20the%20Discord&logo=discord" alt="Discord"/>
-    </a>
-    <a href="https://x.com/drawDB_" style="display: flex; align-items: center;">
-        <img src="https://img.shields.io/badge/Follow%20us%20on%20X-blue?logo=X" alt="Follow us on X"/>
-    </a>
-</div>
+**Estruture o próximo passo.** Modele tabelas e relações de banco de dados visualmente.
 
-<h3 align="center"><img width="700" style="border-radius:5px;" alt="drawDB screenshot demo" src="drawdb.png"></h3>
+[**Experimentar no navegador →**](https://biziva-dados.matheuslopesmgo.chatgpt.site) · [Integração Biziva](BIZIVA.md) · [Documentação original](README.upstream.md)
 
-DrawDB is a robust and user-friendly database entity relationship diagram (ERD) editor right in your browser. Build diagrams with a few clicks, export and import SQL scripts, generate migrations, customize your editor, and more without creating an account. See the full set of features on [here](https://drawdb.app/).
+## Comece em minutos
 
-## Getting Started
+1. Abra o aplicativo e entre com sua conta quando solicitado.
+2. Crie ou abra um projeto e experimente as ferramentas do editor.
+3. Revise e exporte seu trabalho pelas opções disponíveis no aplicativo.
 
-### Local Development
+Projetos ficam no navegador. Faça cópias e exporte o que deseja guardar. Recursos de IA exigem configuração e chave/carteira própria; o acesso ao editor não inclui créditos de IA. Recursos opcionais do projeto original podem exigir configuração adicional.
 
-```bash
-git clone https://github.com/drawdb-io/drawdb
-cd drawdb
-npm install
-npm run dev
-```
+## English
 
-### Build
+**Structure your next move.** Model database tables and relationships visually.
 
-```bash
-git clone https://github.com/drawdb-io/drawdb
-cd drawdb
-npm install
-npm run build
-```
+[Open the active application](https://biziva-dados.matheuslopesmgo.chatgpt.site). Sign in when prompted, create a project and review your export. Projects are browser-local; keep backups. AI features require your own configured key and balance. Optional upstream integrations may require additional setup.
 
-### Docker Build
+## Origem, créditos e licença / Upstream and license
 
-```bash
-docker build -t drawdb .
-docker run -p 3000:80 drawdb
-```
+Este projeto é uma adaptação de [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb). O histórico, os créditos e os arquivos de licença originais foram preservados. A apresentação Biziva não altera a autoria do projeto original nem seus termos de licença.
 
-If you want to enable sharing, set up the [server](https://github.com/drawdb-io/drawdb-server) and environment variables according to `.env.sample`. This is optional unless you need to share files.
-
-With the Docker image, pass the server URL when starting the container. No rebuild is needed:
-
-```bash
-docker run -p 3000:80 -e VITE_BACKEND_URL=https://your-drawdb-server.example.com ghcr.io/drawdb-io/drawdb:latest
-```
-
-## Contributing
-
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
-
-## Support
-- Join discussions: [Discord](https://discord.gg/BrjZgNrmR6)
+Read the complete [original README](README.upstream.md) for upstream setup, contributors, acknowledgments and license information. Biziva adaptations are documented in [BIZIVA.md](BIZIVA.md).
